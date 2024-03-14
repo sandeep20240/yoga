@@ -17,3 +17,14 @@ VanillaTilt.init(tilt, {
 	gyroscopeMinAngleY: -30,
 	gyroscopeMaxAngleY: 30
 });
+
+const button = document.getElementById("toogle-button")
+const Mobilemenu = document.getElementById("mobile-menu")
+
+button.addEventListener("click", function(){
+    console.log("click")
+    Mobilemenu.classList.toggle("hidden")
+})
+
+
+
